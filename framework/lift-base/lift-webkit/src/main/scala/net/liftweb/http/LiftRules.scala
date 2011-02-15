@@ -546,7 +546,9 @@ object LiftRules extends Factory with FormVendor with LazyLoggable {
         "lazyload" -> LazyLoad,
         "html5" -> HTML5,
         "HTML5" -> HTML5,
-        "with-resource-id" -> WithResourceId
+        "with-resource-id" -> WithResourceId,
+				"zone" -> Zone,
+				"Zone" -> Zone
         ))
   }
   setupSnippetDispatch()
